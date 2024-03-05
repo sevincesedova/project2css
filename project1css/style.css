@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Gurmukhi:wght@100..900&family=Roboto:ital');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Gurmukhi:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital');
+*{
+    background-color: #747265;
+}
+.box1{
+    border: solid ;
+    box-shadow: red 0px 2px 8px 0px;
+    width: 700px;
+    height: 1000px;
+    padding: 20px;
+   margin-left: auto;
+   margin-right: auto;
+    text-align: center;
+    
+}
+h3{font-family: "Roboto", sans-serif;
+
+}
+img{
+    border-style: dashed;
+    box-shadow: red 0px 2px 8px 0px;
+    width: 200px;
+    height: 220px;
+
+}
+#sekil1{
+    width: 400px;
+    height: 200px;
+
+}
+.text1{
+    font-family: font-family: "Raleway", sans-serif;
+    line-height: 1.7;
+    text-align: justify
+}
+.text2{
+    font-family: font-family: "Raleway", sans-serif;
+    line-height: 1.7;
+    text-align: justify
+}
+.ad{
+    color: white;
+    text-decoration: underline;
+    text-shadow: rgba(255, 0, 0, 0.804) 2px 1px;
+}
+#t1{ color: white;
+    text-transform: uppercase;
+    
+    
+
+}
+#t2{ color: white;
+    text-transform: uppercase;
+
+}
+#t3{
+    color: rgba(255, 0, 0, 0.471);
+    text-decoration: line-through  black;
+}
+h3{
+    color: white;
+    text-shadow: red 0px 2px;
+    text-decoration: underline;
+}
+#h3{
+    color: rgba(255, 0, 0, 0.842);
+    text-shadow: white 1px 0px 2px; 
+    font-weight: bold;
+}
