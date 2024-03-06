@@ -14,7 +14,7 @@
     text-align: center;
     
 }
-h3{font-family: "Roboto", sans-serif;
+.box1 h3{font-family: "Roboto", sans-serif;
 
 }
 img{
@@ -34,16 +34,7 @@ img{
     line-height: 1.7;
     text-align: justify
 }
-.text2{
-    font-family: font-family: "Raleway", sans-serif;
-    line-height: 1.7;
-    text-align: justify
-}
-.ad{
-    color: white;
-    text-decoration: underline;
-    text-shadow: rgba(255, 0, 0, 0.804) 2px 1px;
-}
+
 #t1{ color: white;
     text-transform: uppercase;
     
@@ -61,10 +52,15 @@ img{
 h3{
     color: white;
     text-shadow: red 0px 2px;
-    text-decoration: underline;
+    
 }
 #h3{
     color: rgba(255, 0, 0, 0.842);
     text-shadow: white 1px 0px 2px; 
     font-weight: bold;
+}
+.ad1{
+    color: white;
+    text-decoration: underline;
+    text-shadow: rgba(255, 0, 0, 0.804) 2px 1px;
 }
