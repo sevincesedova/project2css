@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    background-color: rgb(210, 245, 145);
+}
+.container{
+    width: 1600px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.container .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    align-items: center;
+}
+
+.box .box1 img{
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+}
+.box .box2 ul{
+    display: flex;
+    gap: 40px; 
+}
+.box2 button{
+    border-radius: 30px;
+    width: 60px;
+    background-color: rgb(62, 198, 80);
+    border: none;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: rgb(62, 198, 80);
+}
+section h1{
+padding: 50px;
+text-align: center;
+color: rgb(118, 186, 96);
+font-size: 6ch;
+letter-spacing: 3px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.card1{
+    width: 10%;
+    background-color:  rgb(165, 206, 145);
+
+}
+.card1 img{
+    width: 100%;
+}
+.buy{
+    padding: 10px ;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.buy button{
+    width: 60px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: rgb(35, 178, 90);
+}
+.card1 h4{
+    text-align: center;
+    padding: 10px;
+}
+
+

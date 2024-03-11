@@ -1,0 +1,128 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    background-image: url('gsss.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+}
+.box1{
+    padding: 180px;
+    text-align: center;
+    color: rgb(244, 255, 240);
+}
+header {
+    background-color: rgb(35, 1, 1);
+}
+.container{
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.container .con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    
+}
+.con .con1 img{
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+.con .con2 ul{
+    display: flex;
+    gap: 40px; 
+}
+ul:hover{
+    color: black;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    
+    
+    
+}
+.card1{
+   
+    border: 2px solid rgb(205, 125, 125);
+    width: 23%;
+    
+
+}
+.card1 img{
+    width: 100%;
+}
+.card_img img{
+    width: 100%;
+}
+.card_text{
+    width: 100%;
+    background-color: rgb(248, 236, 236);
+    text-align: center;
+  
+   
+}
+.buy{
+    padding: 10px ;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.buy button{
+    width: 80px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(237, 21, 6);
+}
+.card_text h4{
+    color: rgb(184, 35, 35);
+}
+section h3{
+    padding: 20px;
+    text-align: center;
+    color: rgb(31, 16, 1);
+    font-size: 6ch;
+    text-shadow: red 0px 0px 4px;
+    
+}
+section p{
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+.box1 h1{
+    font-size: 10vh;
+    font-weight: bold;
+    color: rgb(62, 19, 19);
+
+}
+a{
+    color: inherit;
+}
+ul li{
+    color: aliceblue;
+}
