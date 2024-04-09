@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px) {
+    .responsive__btn {
+        display: block;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+    :root {
+        --product-row-count: 2;
+      }
+      
+}
+@media screen and (max-width: 425px) {
+    :root {
+        --product-row-count: 1;
+      }
+
+      .products__about {
+        font-size: 15px;
+      }
+      
+}
